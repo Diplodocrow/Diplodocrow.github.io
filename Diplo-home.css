@@ -141,6 +141,7 @@ li{
 
   color: var(--black);
   font-family: "Carter One", system-ui;
+  font-size:small;
 
   display: flex;
   flex-wrap: wrap;
