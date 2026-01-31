@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Portfolio chaotic</title>
+
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="Diplo-gallery.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        
+    
+      
+    </head>
+
+    <body>
+ 
+
+        <nav class="menu">
+            <li id="van-gauche">
+                <a href="file:///D:/Coding/siteweb/Diplo-home.html" > 
+                    <img class="logo-chat" src="../../Art/0.Drawing/Finished (Jpg-png-gif-mp4)/autism diplo.png" >
+                </a>
+                <a class="link" href="file:///D:/Coding/siteweb/Diplo-home.html">Diplodocrow </a>
+            </li>
+
+            <li id="van-droite">
+                <a class="link" href="file:///D:/Coding/siteweb/Diplo-home.html" >Home</a>
+                <a class="link" href="file:///D:/Coding/siteweb/Diplo-commissions.html">Commisions</a>
+                <a class="link" href="file:///D:/Coding/siteweb/Diplo-blog.html">Blog</a>
+                <a class="link" href="file:///D:/Coding/siteweb/Diplo-archive.html" style="width:125px">Story Archive</a>
+                <a class="link" href="file:///D:/Coding/siteweb/Diplo-gallery.html" style="width:100px">Art Gallery</a>
+                
+            </li>
+
+        </nav>
+        
+
+<div id="filter">
+<!--------- FILTER-->
+    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#folder" 
+            aria-expanded="false" aria-controls="folder">Filters</button>
+
+<!--------- NSFW -->
+    <button class="button filter-nsfw selected" type="button" data-filter="NSFW" value="NSFW OFF" >NSFW/Nudity</button>
+
+<!------------------- OCS-->
+<div style="margin-left:40px;">
+        <div id="folder" class="collapse" >
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#folder1" 
+            aria-expanded="false" aria-controls="folder">My OCs</button>
+
+            <div id="folder1" class="collapse" >
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="OCs">All</button>
+                    <button class="filter-btn" onclick="setButtonAction(this);" data-filter="Diplo" >Diplo</button>
+                    <button class="filter-btn" data-filter="Kah">Kah</button>
+                    <button class="filter-btn" data-filter="Soraya">Soraya</button>
+                    <button class="filter-btn" data-filter="Alora">Alora</button>
+                    <button class="filter-btn" data-filter="Mike">Mike</button>
+                    <button class="filter-btn" data-filter="Hyun-soo">Hyun-soo</button>
+                    <button class="filter-btn" data-filter="Azrael">Azrael</button>
+                    <button class="filter-btn" data-filter="Cheese">Cheese</button>
+                    <button class="filter-btn" data-filter="Perceval">Perceval</button>
+                    <button class="filter-btn" data-filter="Anne-Mary">Anne-Mary</button>
+                    <button class="filter-btn" data-filter="Aasha">Aasha</button>
+                    <button class="filter-btn" data-filter="Jiya">Jiya</button>
+                    <button class="filter-btn" data-filter="Fedwa">Fedwa</button>
+                    
+                </div>
+            </div>
+
+<!----------------- COMMISSIONS-->
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#folder2" 
+            aria-expanded="false" aria-controls="folder">Type</button>
+
+            <div id="folder2" class="collapse" >
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="All">ALL</button>
+                    <button class="filter-btn" data-filter="Lineart">Lineart</button>
+                    <button class="filter-btn" data-filter="BNW">Black and White</button>
+                    <button class="filter-btn" data-filter="Colored">Colored</button>
+                    <button class="filter-btn" data-filter="Rendered">Rendered</button>
+                </div>
+            </div>
+
+<!-- ...................-->
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#folder3" 
+            aria-expanded="false" aria-controls="folder">....</button>
+
+            <div id="folder3" class="collapse" >
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">ALL</button>
+                    <button class="filter-btn" data-filter="1">1</button>
+                    <button class="filter-btn" data-filter="2">2</button>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+</div>
+
+
+
+
+<section id="gallery">
+    <div id="gal-cent">
+                
+    
+        <div class="column" id="gal-col">
+            
+        
+
+
+            
+            
+   <button class="item ALL" type="button" data-toggle="collapse" data-target="#folder-gal" 
+            aria-expanded="false" aria-controls="folder"> <!--button image-->
+            
+            <img class="art" src="../../Art/0.Drawing/Finished (Jpg-png-gif-mp4)/Mike_.jpg">
+            
+    </button>
+
+    <div id="folder-gal" class="collapse"> <!--the button will open whats after this-->
+
+         <button class="cont" type="button" data-toggle="collapse" data-target="#folder-gal" 
+            aria-expanded="false" aria-controls="folder">
+            
+            <div class="credits"> Credits :  <a href="" title="Link to "></a> </div>
+            <img class="image-zoom" src="../../Art/0.Drawing/Finished (Jpg-png-gif-mp4)/Mike_.jpg">
+            <div class="notes">
+                Year : 
+            <br>Characters/Ocs : 
+            <br>Type : 
+            <br>Notes : 
+            </div>
+        </div>
+    </button>
+
+        
+    <!--Image-->
+         <div class="item ALL">
+                <a  href="#img_2"><img class="art" 
+                    src="https://file.garden/ZnMrL85ESFWoAbtq/artfight%20stamps/My%20Art/KITTY%20CAT%20miniature.jpg">
+                </a>
+        </div>
+        <!-- Image END
+            Image zoom-->
+            <a href="#_2" class="lightbox trans" id="img_2">
+                <img src="https://file.garden/ZnMrL85ESFWoAbtq/artfight%20stamps/My%20Art/KITTY%20CAT%20miniature.jpg">
+            </a>
+       <!-- Image zoom END-->
+
+
+
+           
+</div>
+
+
+
+<!--
+<div class="collapse fade hide"
+        id="notices1"
+        style="background-color: rgba(0, 0, 0, 0.7); width:100%; height:100%; z-index: 200; position: absolute; top: 0; bottom: 0; left: 0; right: 0;">
+     
+
+    <a href="#notices1" 
+        class="justify-content-center" 
+        data-toggle="collapse" 
+        style="width: 100%; height:  100%; "> </a>  
+
+
+        <a href="#notices1" data-toggle="collapse">
+        <div class="item" href="#notices1" data-toggle="collapse" style="background: red; width: 300px;"> 
+            <img class="art"  src="https://file.garden/ZnMrL85ESFWoAbtq/artfight%20stamps/My%20Art/PISS%20BLAST%20MATELOUTRE.jpg">
+             
+            </div></a> 
+
+
+        </div>
+
+</div> 
+
+
+
+
+       <div class="item"> 
+            <img class="art" src="https://file.garden/ZnMrL85ESFWoAbtq/artfight%20stamps/My%20Art/bat%20lemon.jpg">
+        
+        </div>
+
+        <div class="item">
+        <img class="art" src="https://file.garden/ZnMrL85ESFWoAbtq/artfight%20stamps/My%20Art/soraya.jpg" >
+        
+        </div>
+
+        <div class="item">
+        <img class="art" src="https://file.garden/ZnMrL85ESFWoAbtq/artfight%20stamps/My%20Art/Mike_.jpg">
+        
+        </div>
+
+        <div class="item">
+        <img class="art" src="https://file.garden/ZnMrL85ESFWoAbtq/artfight%20stamps/My%20Art/KITTY%20CAT%20miniature.jpg">
+        
+        </div>
+
+        <div class="item">
+        <img class="art" src="https://file.garden/ZnMrL85ESFWoAbtq/artfight%20stamps/My%20Art/JAX%20got%20beat%20up%20lol.jpg" >
+        
+        </div>
+
+        <div class="item">
+        <img class="art" src="https://file.garden/ZnMrL85ESFWoAbtq/artfight%20stamps/My%20Art/leafeon.jpg">
+        
+        </div>
+-->
+
+
+
+    </div>
+
+</section>
+
+
+
+
+<script src="Diplo.js" defer></script>
+    </body>
+    
+
+</html>

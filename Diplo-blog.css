@@ -1,0 +1,364 @@
+/* COLOR PALLETTE */
+/*:root{   
+    --blue: #5A69A3; /*#5A69A3,   #4E528F*/
+   /* --dblue: #323770; /*#323770*/
+  /*  --yellow:#CFA96B;
+    --black:#140D23;
+    --white:#E3D4BE;
+    --red:#870700;
+    --yellow2:#E8A83A; 
+    
+
+    
+}   */
+
+:root{   
+    --dblue: #323770; /*#323770*/
+    --blue: #5A69A3; /*#5A69A3,   #4E528F*/
+    
+    --yellow2:#E6AA43;
+    --yellow:#EACA89;
+
+    --red:#870700;
+    --red2:#A83F35;
+
+    --green:#527267;
+    --green2:#689083;
+
+    --black:#140D23;
+    --white:#F0E0CE; 
+}
+
+* {
+    margin:0;
+    padding:0;
+    outline:0;
+    border:0;
+    border-spacing: 0;
+    box-sizing: border-box;
+}
+
+body{   /*BACKGROUND*/
+    background-image: linear-gradient(to bottom, var(--dblue), var(--blue,));
+    height: fit-content; min-height: 100vh; max-width: 100vw;
+    
+}
+
+.menu{ /*NAV BAR */
+    border: 2px solid var(--black);
+    background-color: var(--blue);
+    border-radius: 15px;
+
+    width: 96%; height: 6.5%;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    justify-content: space-between;
+
+    position: fixed;
+    box-shadow: inset -1px -1px 2px 1px color-mix(in srgb, var(--dblue) 70%, transparent), 
+                inset 2px 2px 2px 1px color-mix(in srgb, var(--white) 30%, transparent);
+    
+   
+    
+}
+
+li{
+    list-style-type: none;
+    width: 30%;
+        margin: 0px 10px 0px 10px;
+}
+
+#van-gauche{
+    font-family: "Carter One", system-ui;
+    width: 13.5%;
+    
+    display: flex; /*flexbox, c necessaire de mettre display avant le rest en bas*/
+    justify-content: flex-start;  /*decalle tout au debut, a gauche*/
+    align-items: left; /*au centre, mais horizontalement*/
+
+}
+
+/*a, a:hover, a:focus, a:active{  
+    display: flex; 
+    justify-content: flex-start;  
+    align-items: center; 
+    text-decoration: none;
+      color: inherit;
+      min-width: fit-content;
+      
+}  */
+
+    
+.link:hover{
+  color: var(--yellow);
+
+  text-decoration: none;
+}
+
+.link{
+  margin: 0% 2% 0% 2%;
+  color: var(--black);
+  font-size: 1.3em;
+  
+
+  display: flex; /*flexbox, c necessaire de mettre display avant le rest en bas*/
+    justify-content: flex-start;  /*decalle tout au debut, a gauche*/
+    align-items: center; /*au centre, mais horizontalement*/
+  
+    min-width: fit-content;
+
+
+}
+
+#van-droite{
+    font-family: "Carter One", system-ui;
+    font-weight: 800;
+    display: flex ;
+    justify-content: space-evenly;
+    align-items: right;
+    width: 50%;
+
+}
+
+.logo-chat{
+
+    width: auto;
+    height: 100%;
+    object-fit: auto;
+    
+    margin-right:5px;
+   
+    
+
+    /*border-radius: 50px;
+    object-fit: cover;
+    padding:1%;
+    object-view-box: inset(15% 15% 15% 15%);*/
+
+}
+
+
+
+
+.cent{
+    width: 100%; 
+    height: fit-content; 
+
+    display: flex; justify-content: center;
+    margin-top: 5%;
+}
+
+
+
+/*----------------------------------- UPDATES LOG-------------------*/
+
+.decoration-1{
+
+    background-color: #5A69A3;
+    width: 350px ;
+    height: 20%;
+    border-radius:25px;
+
+    margin-bottom: 8%;
+    padding:2%;
+border: 3px var(--black) solid; 
+
+}
+
+
+.update{
+    font-family: "Carter One", system-ui;
+    width: 350px; height: 500px;
+    background-color: var(--yellow);
+    border-radius: 20px;
+   
+    color: var(--black);
+    margin: 1%;
+    border: 3px var(--black) solid; 
+
+}
+
+.scroll{
+    overflow-y: scroll;
+    scrollbar-width:none;
+
+    width: 340px; height: 440px;
+    padding:1%;
+    border-radius: 20px;
+     margin:auto;
+    
+}
+
+.entry{
+    font-family: "Carter One", system-ui; 
+    height: fit-content;
+    background-color: var(--white);
+    border-radius: 20px;
+    margin:1%;
+    color:var(--black);
+    padding: 5%;
+    overflow: hidden;
+    word-wrap: break-word;
+    box-shadow: inset -1px -1px 2px 1px color-mix(in srgb, var(--dblue) 70%, transparent), 
+                inset 2px 2px 2px 1px color-mix(in srgb, var(--white) 30%, transparent);
+    
+}
+
+/*----------------------------------- UPDATES LOG END -------------------*/
+
+
+
+
+.TODO{
+    font-family: "Carter One", system-ui;
+    width:350px; height: 500px;
+    background-color: var(--yellow);
+    border-radius: 20px;
+   
+    color: var(--black);
+    margin: 1%;
+border: 3px var(--black) solid; 
+}
+
+
+.checkbox{
+    font-family: "Carter One", system-ui; 
+    height: fit-content;
+    background-color: var(--white);
+    border-radius: 20px;
+    color:var(--black);
+
+    padding: 3%; 
+    margin:break-word;
+
+    
+    box-shadow: inset -1px -1px 2px 1px color-mix(in srgb, var(--dblue) 70%, transparent), 
+                inset 2px 2px 2px 1px color-mix(in srgb, var(--white) 30%, transparent);
+
+}
+
+
+
+.decoration-2{
+
+    background-color: #5A69A3;
+    width: 60vw ;
+    height: 15%;
+    border-radius:25px;
+
+    margin: 0% 3% 3% 3%;
+    padding:2%;
+
+    border: 3px var(--black) solid; 
+
+
+}
+
+
+
+.Blogs{
+    margin: 0% 3% 3% 3%;
+    padding:2%;
+}
+
+
+.BLOG-BUTTONS{
+
+    grid-column: auto;
+}
+
+
+/* -------------------ART BLOG----------------------*/
+.Art-blog-button{
+    background-color: #5A69A3;
+    border-radius: 25px 25px 0px 0px;
+    border: 3px var(--black) solid; border-bottom: none;
+    padding:2%; 
+
+    width: 150px ;
+    height: 5%;
+
+    font-family: "Carter One", system-ui; color: var(--black);
+    
+}
+
+.Art-blog-button.active{
+    background-color: #5A69A3;
+    border-radius: 25px 25px 0px 0px;
+    border: var(--black) solid; border-bottom: none;
+    border-width: 3px 3px 0px 3px;
+    padding:2%; 
+
+    width: 150px ;
+    height: 6%;
+
+    font-family: "Carter One", system-ui;color: var(--black);
+
+    position:static;
+
+
+    
+
+}
+
+.back-blog-art{
+    background-color: var(--blue);
+    border-radius: 0px 25px 25px 25px;
+    /* border: 3px var(--black) solid; */
+    padding:2%; 
+
+    width: 60vw ;
+    height: 50%;
+
+
+}
+
+/* -------------------Perso BLOG----------------------*/
+.Perso-blog-button{
+    background-color: var(--red2);
+    border-radius: 25px 25px 0px 0px;
+
+    border: 3px var(--black) solid; 
+
+    padding:2%; 
+
+    width: 150px ;
+    height: 5%;
+
+    font-family: "Carter One", system-ui; color: var(--black);
+    
+}
+
+.Perso-blog-button.active{
+    background-color: var(--red2);
+    border-radius: 25px 25px 0px 0px;
+    
+    border: 3px var(--black) solid; 
+    border-bottom: 1px var(--red2) solid;
+
+    padding:2%; 
+
+    width: 150px ;
+    height: 5%;
+
+    font-family: "Carter One", system-ui; color: var(--black);
+    
+}
+
+.back-blog-perso{
+    background-color: var(--red2);
+    border-radius: 0px 25px 25px 25px;
+    /* border: 3px var(--black) solid; */
+    padding:2%; 
+
+    width: 60vw ;
+    height: 50%;
+
+    display:hidden;
+
+
+}
+
