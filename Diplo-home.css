@@ -103,7 +103,7 @@ li{
     justify-content: space-evenly;
     align-items: right;
     width: 50%;
-    font-size:small;
+    font-size:12pt;
 
 }
 
@@ -141,7 +141,7 @@ li{
 
   color: var(--black);
   font-family: "Carter One", system-ui;
-  font-size:small;
+  font: 12pt;
 
   display: flex;
   flex-wrap: wrap;
