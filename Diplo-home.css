@@ -84,7 +84,7 @@ li{
 .link{
   margin: 0% 2% 0% 2%;
   color: var(--black);
-  font-size: 1.3em;
+  text-decoration: none;
   
 
   display: flex; /*flexbox, c necessaire de mettre display avant le rest en bas*/
@@ -103,7 +103,7 @@ li{
     justify-content: space-evenly;
     align-items: right;
     width: 50%;
-    font-size:12pt;
+    
 
 }
 
@@ -141,7 +141,7 @@ li{
 
   color: var(--black);
   font-family: "Carter One", system-ui;
-  font: 12pt;
+  
 
   display: flex;
   flex-wrap: wrap;
