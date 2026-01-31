@@ -43,6 +43,7 @@ body{   /*BACKGROUND*/
     position: fixed;
     box-shadow: inset -1px -1px 2px 1px color-mix(in srgb, var(--dblue) 70%, transparent), 
                 inset 2px 2px 2px 1px color-mix(in srgb, var(--white) 30%, transparent);
+                font-size:12px;
     
    
     
@@ -140,11 +141,12 @@ li{
 
 
   color: var(--black);
-  font-family: "Carter One", system-ui;
+  font-family: "Carter One";
   
 
   display: flex;
   flex-wrap: wrap;
+  font-size:12px;
   
 }
 

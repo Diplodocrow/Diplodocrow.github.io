@@ -65,7 +65,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
       category:"OCs Soraya Colored Rendered NSFW 2025", /*Ocs OCNAME Flat Rendered Colored BNW Lineart 202X NSFW*/ 
       Button: "1" ,
-      img: "../../Art/0.Drawing/Finished (Jpg-png-gif-mp4)/soraya.jpg",
+      img: "image/soraya.jpg",
       credits: "" ,
       creditsLink:"" ,
       nameLink:"",
@@ -79,7 +79,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     {
       category:"BNW rendered 2025", /*Ocs OCNAME Flat Rendered Colored BNW Lineart 202X NSFW*/ 
       Button: "2" ,
-      img: "../../Art/0.Drawing/Finished (Jpg-png-gif-mp4)/leafeon.jpg",
+      img: "image/leafeon.jpg",
       credits: "Leafon from Pokemon" ,
       creditsLink:"" ,
       nameLink:"",
@@ -95,7 +95,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     {
       category:"OCs Aasha Flat Colored 2025", /*Ocs OCNAME Flat Rendered Colored BNW Lineart 202X NSFW*/ 
       Button: "3" ,
-      img: "../../Art/0.Drawing/Finished (Jpg-png-gif-mp4)/Aasha.jpg",
+      img: "image/Aasha.jpg",
       credits: "" ,
       creditsLink:"" ,
       nameLink:"",
@@ -109,7 +109,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
   {
       category:"OCs Kah rendered Colored 2025", /*Ocs OCNAME Flat Rendered Colored BNW Lineart 202X NSFW*/ 
       Button: "4" ,
-      img: "../../Art/0.Drawing/Finished (Jpg-png-gif-mp4)/Kah.jpg",
+      img: "image/Kah.jpg",
       credits: "" ,
       creditsLink:"" ,
       nameLink:"",
@@ -123,7 +123,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     {
       category:"OCs Flat Colored 2025", /*Ocs OCNAME Flat Rendered Colored BNW Lineart 202X NSFW*/ 
       Button: "5" ,
-      img: "../../Art/0.Drawing/Finished (Jpg-png-gif-mp4)/Nathalia Athy - human.jpg",
+      img: "image/Nathalia_Athy-human.jpg",
       credits: "Nathalia by " ,
       creditsLink:"https://toyhou.se/Athy_Luna" ,
       nameLink:"Athy",
@@ -136,7 +136,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     {
       category:"OCs Flat Colored Lineart 2025", /*Ocs OCNAME Flat Rendered Colored BNW Lineart 202X NSFW*/ 
       Button: "6" ,
-      img: "../../Art/0.Drawing/Finished (Jpg-png-gif-mp4)/full body avatar alora.jpg",
+      img: "image/full_body_avatar_alora.jpg",
       credits: "" ,
       creditsLink:"" ,
       nameLink:"",
@@ -151,7 +151,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
       category:"OCs Alora Rendered Colored Lineart 2025", /*Ocs OCNAME Flat Rendered Colored BNW Lineart 202X NSFW*/ 
       Button: "7" ,
-      img: "../../Art/0.Drawing/Finished (Jpg-png-gif-mp4)/Alora.jpg",
+      img: "image/Alora.jpg",
       credits: "" ,
       creditsLink:"" ,
       nameLink:"",
@@ -164,7 +164,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     {
       category:"Rendered BNW Lineart 2025", /*Ocs OCNAME Flat Rendered Colored BNW Lineart 202X NSFW*/ 
       Button: "8" ,
-      img: "../../Art/0.Drawing/Finished (Jpg-png-gif-mp4)/Cinna_sasharp-wonder egg priority.jpg",
+      img: "image/Cinna_sasharp-wonder_egg_priority.jpg",
       credits: "Cinnabar by" ,   /*OCNAME by*/
       creditsLink:"https://toyhou.se/vermillionred" , /*Link socials*/
       nameLink:"Vermillionred", /*name of creator*/
@@ -177,7 +177,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     {
       category:"OCS Diplo flat Colored Lineart 2025", /*Ocs OCNAME Flat Rendered Colored BNW Lineart 202X NSFW*/ 
       Button: "9" ,
-      img: "../../Art/0.Drawing/Finished (Jpg-png-gif-mp4)/diplo doodles lost 1.png",
+      img: "image/diplo_doodles_lost_1.png",
       credits: "The background is a Backroom pic :]" ,   /*OCNAME by*/
       creditsLink:"" , /*Link socials*/
       nameLink:"", /*name of creator*/
@@ -191,8 +191,8 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
       category:"OCS Diplo BD Lineart 2025", /*Ocs OCNAME Flat Rendered Colored BNW Lineart 202X NSFW BD*/ 
       Button: "10" ,
-      img: "../../Art/0.Drawing/Finished (Jpg-png-gif-mp4)/doodles diplo breaking responsability.jpg",
-      credits: "The background is a Backrooms pic :]" ,   /*OCNAME by*/
+      img: "image/doodles_diplo_breaking_responsability.jpg",
+      credits: "" ,   /*OCNAME by*/
       creditsLink:"" , /*Link socials*/
       nameLink:"", /*name of creator*/
       Year : "Winter 2025" ,
@@ -204,7 +204,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     {
       category:"Flat Artfight Colored Lineart 2024", /*Ocs OCNAME Flat Rendered Colored BNW Lineart 202X NSFW BD Artfight*/ 
       Button: "11" ,
-      img: "../../Art/0.Drawing/Finished (Jpg-png-gif-mp4)/Bhumi.jpg",
+      img: "image/Bhumi.jpg",
       credits: "Bhumi by " ,   /*OCNAME by*/
       creditsLink:"https://artfight.net/~arnie_mae" , /*Link socials*/
       nameLink:"arnie_mae", /*name of creator*/
@@ -217,7 +217,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     {
       category:"OCS Fedwa Flat Colored Lineart 2025", /*Ocs OCNAME Flat Rendered Colored BNW Lineart 202X NSFW BD Artfight*/ 
       Button: "12" ,
-      img: "../../Art/0.Drawing/Finished (Jpg-png-gif-mp4)/Bat lemon.jpg",
+      img: "image/Bat_lemon.jpg",
       credits: "B " ,   /*OCNAME by*/
       creditsLink:"" , /*Link socials*/
       nameLink:"", /*name of creator*/
@@ -231,7 +231,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     {
       category:"OCS Diplo Lineart 2025", /*Ocs OCNAME Flat Rendered Colored BNW Lineart 202X NSFW BD Artfight*/ 
       Button: "13" ,
-      img: "../../Art/0.Drawing/Finished (Jpg-png-gif-mp4)/doodles diplo killin spree.jpg",
+      img: "image/doodles_diplo_killin_spree.jpg",
       credits: "" ,   /*OCNAME by*/
       creditsLink:"" , /*Link socials*/
       nameLink:"", /*name of creator*/
@@ -244,7 +244,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     {
       category:"OCS Diplo Rendered Colored Lineart 2025", /*Ocs OCNAME Flat Rendered Colored BNW Lineart 202X NSFW BD Artfight*/ 
       Button: "14" ,
-      img: "../../Art/0.Drawing/Finished (Jpg-png-gif-mp4)/doodles diplo full slut.jpg",
+      img: "image/doodles_diplo_full_slut.jpg",
       credits: "" ,   /*OCNAME by*/
       creditsLink:"" , /*Link socials*/
       nameLink:"", /*name of creator*/
@@ -257,7 +257,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     {
       category:"Rendered Colored 2024", /*Ocs OCNAME Flat Rendered Colored BNW Lineart 202X NSFW BD Artfight*/ 
       Button: "15" ,
-      img: "../../Art/0.Drawing/Finished (Jpg-png-gif-mp4)/Evangeline.jpg",
+      img: "image/Evangeline.jpg",
       credits: "Evangeline from Wakfu" ,   /*OCNAME by*/
       creditsLink:"" , /*Link socials*/
       nameLink:"", /*name of creator*/
@@ -270,7 +270,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     {
       category:"OCS Hyun-soo Lineart Flat Colored 2025", /*Ocs OCNAME Flat Rendered Colored BNW Lineart 202X NSFW BD Artfight*/ 
       Button: "16" ,
-      img: "../../Art/0.Drawing/Finished (Jpg-png-gif-mp4)/full body avatar Hyun-soo.jpg",
+      img: "image/full_body_avatar_Hyun-soo.jpg",
       credits: "" ,   /*OCNAME by*/
       creditsLink:"" , /*Link socials*/
       nameLink:"", /*name of creator*/
@@ -283,7 +283,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     {
       category:"OCS Kah Lineart 2025", /*Ocs OCNAME Flat Rendered Colored BNW Lineart 202X NSFW BD Artfight*/ 
       Button: "17" ,
-      img: "../../Art/0.Drawing/Finished (Jpg-png-gif-mp4)/sad kah crisis.jpg",
+      img: "image/sad_kah_crisis.jpg",
       credits: "" ,   /*OCNAME by*/
       creditsLink:"" , /*Link socials*/
       nameLink:"", /*name of creator*/
@@ -296,7 +296,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     {
       category:"OCS Hyun-soo Rendered Colored Lineart 2025", /*Ocs OCNAME Flat Rendered Colored BNW Lineart 202X NSFW BD Artfight*/ 
       Button: "18" ,
-      img: "../../Art/0.Drawing/Finished (Jpg-png-gif-mp4)/Hyun-soo.jpg",
+      img: "image/Hyun-soo.jpg",
       credits: "" ,   /*OCNAME by*/
       creditsLink:"" , /*Link socials*/
       nameLink:"", /*name of creator*/
