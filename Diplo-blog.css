@@ -102,7 +102,7 @@ li{
   margin: 0% 2% 0% 2%;
   color: var(--black);
   font-size: 1.3em;
-  
+  text-decoration: none;
 
   display: flex; /*flexbox, c necessaire de mettre display avant le rest en bas*/
     justify-content: flex-start;  /*decalle tout au debut, a gauche*/
@@ -120,6 +120,7 @@ li{
     justify-content: space-evenly;
     align-items: right;
     width: 50%;
+    text-decoration: none;
 
 }
 
