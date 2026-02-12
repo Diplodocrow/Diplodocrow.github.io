@@ -5,15 +5,15 @@
         <title>Portfolio chaotic</title>
 
         <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <link href="index.css" type="text/css" rel="stylesheet">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <link href="Diplo-home.css" type="text/css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
         
-    
+        
 
                 <link rel="stylesheet" href="flickity.css" media="screen">
                 <script src="flickity.pkgd.min.js"></script>
@@ -30,90 +30,270 @@
 
     <body>
                 
+<div class="crt">
+         <nav class="menu shine">
+            <!--<li id="van-gauche">-->
+            <!--    <a href="index.html" > -->
+            <!--        <img class="logo-chat" src="image/autism_diplo.png" >-->
+            <!--    </a>-->
+            <!--    <a class="link" href="index.html">Diplodocrow </a>-->
+            <!--</li>-->
 
-         <nav class="menu">
-            <li id="van-gauche">
-                <a href="index.html" > 
-                    <img class="logo-chat" src="image/autism_diplo.png" >
-                </a>
-                <a class="link" href="index.html">Diplodocrow </a>
-            </li>
-
-            <li id="van-droite">
                 <a class="link" href="index.html" >Home</a>
                 <a class="link" href="Diplo-commissions.html">Commisions</a>
                 <a class="link" href="Diplo-blog.html">Blog</a>
                 <a class="link" href="Diplo-archive.html" style="width:125px">Story Archive</a>
                 <a class="link" href="Diplo-gallery.html" style="width:100px">Art Gallery</a>
-                
-            </li>
-
+              
         </nav>
         
-<section id="home">
-    <div class="intro">
-        <h3>Welcome to my website !</h3>
-           <p>Hi hello, very nice meeting you here nice stranger, I'm Diplo :D <br>
-            This website exists mostly because i wanted somewhere to archive 
-            all of my drawings and organize them as a mean to study my own progress 
-            and future art goals. <br> 
-            My second goal with this website was to remember my own personality somehow, 
-            to kind of archive my own childhood experiences on the internet or what takes me back as well 
-            as what defines me yn, nostalgia. <br> 
-            I discovered pretty recently (very late yes indeed) that indie websites existed 
-            and i loved the concept of having a long time project that would grow as i grow 
-            myself (art wise and as a human), so i jumped right in after tweaking a bit 
-            with Toyhouse HTML personalization and getting the basics of coding back</p>
+        
+<div class="filters">  
+        
+<div class="home">
+  
+  <div class="row">
+    <div class="col">
+   
+       <div class="diplo-title floating2 shine">
+         <!-- Diplodocrow<p style="font-size:2rem; padding-top:9%">'s website</p> -->
+          <img src="image/Diplo-title.png">
+       </div>
+            
+  
+      <div class="weird-div-intro shine">
+          <h3>Welcome to my website !</h3>
+                 <p>Hi hello, very nice meeting you here nice stranger, I'm Diplo :D <br>
+                  This website exists mostly because i wanted somewhere to archive 
+                  all of my drawings and organize them as a mean to study my own progress 
+                  and future art goals. <br> 
+                  My second goal with this website was to remember my own personality somehow, 
+                  to kind of archive my own childhood experiences on the internet or what takes me back as well 
+                  as what defines me yn, nostalgia. <br> 
+                  I discovered pretty recently (very late yes indeed) that indie websites existed 
+                  and i loved the concept of having a long time project that would grow as i grow 
+                  myself (art wise and as a human), so i jumped right in after tweaking a bit 
+                  with Toyhouse HTML personalization and getting the basics of coding back</p>
     </div>
+        
+    <img class="slop1" src="image/slop.svg">
+  
+    <div class="weird-div-music shine">
+       
+            <div class="music">
+                     Songs I have on repeat this days : 
+                            
+                    <div class="container floating2">
+                        <input type="radio" name="slider" id="item-1" checked>
+                        <input type="radio" name="slider" id="item-2">
+                        <input type="radio" name="slider" id="item-3">
+                    <div class="cards">
+                        <label class="card" for="item-1" id="song-1">
+                        <img class="img-music" src="image/serrer-les-dent-loufox.jpg" alt="song"
+                                onclick='play1()' onclick="event.stopPropagation()">
+                        </label>
+
+                        <label class="card" for="item-2" id="song-2">
+                        <img class="img-music" src="image/persephone-fallait_etre_la.jpg" alt="song" 
+                                onclick='play2()' onclick="event.stopPropagation()">
+                        </label>
+
+                        <label class="card" for="item-3" id="song-3">
+                        <img class="img-music" src="image/Spider_ZED-Laeroport.jpg" alt="song" 
+                                onclick='play3()' onclick="event.stopPropagation()">
+                        </label>
+
+                    </div>
+
+                    <div class="player">
+                        <div class="upper-part">
+                        
+                        <div class="info-area" id="test">
+                            <label class="song-info" id="song-info-1">
+                            <div class="title">Serrer les dents - Loufox</div>
+                            
+
+                            </label>
+                            <label class="song-info" id="song-info-2">
+                            <div class="title">Fallait être la - Persephone</div>
+                            
+
+                            </label>
+                            <label class="song-info" id="song-info-3">
+                            <div class="title">L'Aéroport - Spider ZED</div>
+                            
+
+                            </label>
+                        </div>
+                        </div>
+                       
+                    </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+  
+    <img class="slop2" src="image/slop.svg">
+  
+    <div class="weird-div-poke shine">
+          <div class="pokebag">
+            
+                <img class="pokemon" style="width:5%;" title="Dewott" src="https://file.garden/ZnMrL85ESFWoAbtq/poke%20sprite/dewott.gif" >
+                <img class="pokemon" style="width:17%;" title="Luxray" src="https://file.garden/ZnMrL85ESFWoAbtq/poke%20sprite/luxray.gif" >
+                <img class="pokemon" style="width:7%;" title="Leafon" src="https://file.garden/ZnMrL85ESFWoAbtq/poke%20sprite/leafeon.gif">
+                <img class="pokemon" style="width:7.5%;" title="Lucario" src="https://file.garden/ZnMrL85ESFWoAbtq/poke%20sprite/lucario.gif" >
+                <img class="pokemon" style="width:19%;" title="Greninja" src="https://file.garden/ZnMrL85ESFWoAbtq/poke%20sprite/greninja.gif" >
+                <img class="pokemon" style="width:10%;" title="Lycanroc" src="https://file.garden/ZnMrL85ESFWoAbtq/poke%20sprite/lycanroc-dusk.gif">
+                <img class="pokemon" style="width:7%;" title="Ameura" src="https://file.garden/ZnMrL85ESFWoAbtq/poke%20sprite/amaura.gif" >
+        </div>
+  </div>
+  
+
+  
+  <img class="slop3" src="image/slop.svg">
+  
+</div>
+  
+  
+  
+  
+  
+   <div class="col">
+
+
+        <div class="bandaid-warning shine">
+            <div class="warning"> WARNING : Various contents are present on this website, 
+                                    you could be one scroll or click away from NSFW/GORE content 
+                                    of ANY kind</div>
+        </div>
+
+        <div class="more-me-words shine"> Wanna know<br>more about me ?<br>Go to Blog !</div>
+            <img class="more-me floating shine" src="image/autism_diplo.png">
+            
+
+        <div class="weird-div-visits shine">
+            You are Visitor : #<span id="hitcount"></span>
+        </div>
+
+            <img class="slop4" src="image/slop-yell1.svg">
+
+        <div class="weird-div-link">
+            Web badge________________________________________
+        </div>
+
+            <img class="slop5" src="image/slop-yell2.svg">
+
+        <div class="weird-div-latestart shine">
+
+             <!-- <div class="container2">
+                        <input type="radio" name="slider" id="item-A" checked>
+                        <input type="radio" name="slider" id="item-B">
+                        <input type="radio" name="slider" id="item-C">
+                    <div class="cards2">
+
+                        <label class="card2" for="item-A" id="song-A">
+                        <img class="img-art" src="image/Aasha.jpg">
+                        </label>
+
+                        <label class="card2" for="item-B" id="song-B">
+                        <img class="img-art" src="image/The_mermaids.jpg">
+                        </label>
+
+                        <label class="card2" for="item-C" id="song-C">
+                        <img class="img-art" src="image/sad_kah_crisis.jpg">
+                        </label>
+
+                    </div>
+            </div> -->
+        </div>
+    
+    
+        <div class="WARNING">
+          
+          WARNING : This website is still a work in progress, meaning i didnt put tags or warnings on anything yet, and not everything is working correctly (sobbing)
+        </div>
+  </div>
+
+
+
+</div>
+
+</div>
+  
+
+    <div class="weird-div-footer shine">
+        <div class="socials">
+                 <!-- TUMBLR -->
+                <a class="text-secondary tooltipster floating" href="https://www.tumblr.com/diplodocrow" title="Tumblr"><i class="fab fa-tumblr fa-fw fa-2x"></i></a>
+    
+                <!-- Tiktok -->
+                <a class="text-secondary tooltipster floating2" href="https://www.tiktok.com/@\diplodocrow" title="Tiktok"><i class="fa-brands fa-tiktok fa-fw fa-2x"></i></a>
+    
+                <!-- Artfight -->
+                <a class="text-secondary tooltipster floating" href="https://artfight.net/~Diplodocrow" title="Artfight" style="font-size:27px;"><i class="fa-solid fa-paintbrush"></i></a>
+    
+                <!-- DISCORD -->
+                <a class="text-secondary tooltipster floating2" title="Discord : amend.me"><i class="fab fa-discord fa-fw fa-2x"></i></a></div>
+    
+          
+          <div class="ownership">
+                © 2026 Diplodocrow
+          </div> </div>
+  
+
+
+
 
     
 
-
-
-</section>
-
-
-<section id="PSP">
-    <div id="gal-cent">
-    <div class="prev-col">
-        <div class="main-carousel" >
-
-                <!-- Flickity HTML init -->
-            <div class="gallery js-flickity"
-                data-flickity-options='{ "wrapAround": true }' onclick="play()">
-
-            <!-- <div class="carousel-cell" >
-                <img class="art floating" 
-                        src="https://file.garden/ZnMrL85ESFWoAbtq/artfight%20stamps/My%20Art/soraya.jpg">
-                    </div>
-
-            <div class="carousel-cell">
-                <img class="art floating" 
-                        src="https://file.garden/ZnMrL85ESFWoAbtq/artfight%20stamps/My%20Art/leafeon.jpg"></div>
-
-                <div class="carousel-cell">
-                <img class="art floating" 
-                        src="https://file.garden/ZnMrL85ESFWoAbtq/artfight%20stamps/My%20Art/JAX%20got%20beat%20up%20lol.jpg"></div>
-
-            <div class="carousel-cell"></div>
-            <div class="carousel-cell"></div>
-            <div class="carousel-cell"></div>
-            <div class="carousel-cell"></div> -->
-            </div>
-
-        </div>
-                
-
-    </div>
-
-<div class="gallery-redi">
-    <button class="more" ><a href="Diplo-gallery.html"> SEE MORE</a></button>
+</div>
 
 </div>
 
 
-    </div>       
-</section>
+<!--<section id="PSP">-->
+<!--    <div id="gal-cent">-->
+<!--    <div class="prev-col">-->
+<!--        <div class="main-carousel" >-->
+
+                <!-- Flickity HTML init -->
+<!--            <div class="gallery js-flickity"-->
+<!--                data-flickity-options='{ "wrapAround": true }' onclick="play()">-->
+
+            <!-- <div class="carousel-cell" >
+<!--                <img class="art floating" -->
+<!--                        src="https://file.garden/ZnMrL85ESFWoAbtq/artfight%20stamps/My%20Art/soraya.jpg">-->
+<!--                    </div>-->
+
+<!--            <div class="carousel-cell">-->
+<!--                <img class="art floating" -->
+<!--                        src="https://file.garden/ZnMrL85ESFWoAbtq/artfight%20stamps/My%20Art/leafeon.jpg"></div>-->
+
+<!--                <div class="carousel-cell">-->
+<!--                <img class="art floating" -->
+<!--                        src="https://file.garden/ZnMrL85ESFWoAbtq/artfight%20stamps/My%20Art/JAX%20got%20beat%20up%20lol.jpg"></div>-->
+
+<!--            <div class="carousel-cell"></div>-->
+<!--            <div class="carousel-cell"></div>-->
+<!--            <div class="carousel-cell"></div>-->
+<!--            <div class="carousel-cell"></div> -->-->
+<!--            </div>-->
+
+<!--        </div>-->
+                
+
+<!--    </div>-->
+
+<!--<div class="gallery-redi">-->
+<!--    <button class="more" ><a class ="see-more" href="Diplo-gallery.html"> SEE MORE</a></button>-->
+
+<!--</div>-->
+
+
+<!--    </div>       -->
+<!--</section>-->
 
 <section id="Music">
 
@@ -205,39 +385,39 @@
 
 
 
-<div class="footer">
+<!--<div class="footer">-->
     
-        <div class="pokebag">
+<!--        <div class="pokebag">-->
             
-                <img class="pokemon" style="width:5%;" title="Dewott" src="https://file.garden/ZnMrL85ESFWoAbtq/poke%20sprite/dewott.gif" ></a>
-                <img class="pokemon" style="width:17%;" title="Luxray" src="https://file.garden/ZnMrL85ESFWoAbtq/poke%20sprite/luxray.gif" ></a>
-                <img class="pokemon" style="width:7%;" title="Leafon" src="https://file.garden/ZnMrL85ESFWoAbtq/poke%20sprite/leafeon.gif" alt="Leafon"></a>
-                <img class="pokemon" style="width:7.5%;" title="Lucario" src="https://file.garden/ZnMrL85ESFWoAbtq/poke%20sprite/lucario.gif" ></a>
-                <img class="pokemon" style="width:19%;" title="Greninja"src="https://file.garden/ZnMrL85ESFWoAbtq/poke%20sprite/greninja.gif" ></a>
-                <img class="pokemon" style="width:10%;" title="Lycanroc" src="https://file.garden/ZnMrL85ESFWoAbtq/poke%20sprite/lycanroc-dusk.gif"></a>
-                <img class="pokemon" style="width:7%;" title="Ameura" src="https://file.garden/ZnMrL85ESFWoAbtq/poke%20sprite/amaura.gif" ></a>
-        </div>
+<!--                <img class="pokemon" style="width:5%;" title="Dewott" src="https://file.garden/ZnMrL85ESFWoAbtq/poke%20sprite/dewott.gif" >-->
+<!--                <img class="pokemon" style="width:17%;" title="Luxray" src="https://file.garden/ZnMrL85ESFWoAbtq/poke%20sprite/luxray.gif" >-->
+<!--                <img class="pokemon" style="width:7%;" title="Leafon" src="https://file.garden/ZnMrL85ESFWoAbtq/poke%20sprite/leafeon.gif" alt="Leafon">-->
+<!--                <img class="pokemon" style="width:7.5%;" title="Lucario" src="https://file.garden/ZnMrL85ESFWoAbtq/poke%20sprite/lucario.gif" >-->
+<!--                <img class="pokemon" style="width:19%;" title="Greninja" src="https://file.garden/ZnMrL85ESFWoAbtq/poke%20sprite/greninja.gif" >-->
+<!--                <img class="pokemon" style="width:10%;" title="Lycanroc" src="https://file.garden/ZnMrL85ESFWoAbtq/poke%20sprite/lycanroc-dusk.gif">-->
+<!--                <img class="pokemon" style="width:7%;" title="Ameura" src="https://file.garden/ZnMrL85ESFWoAbtq/poke%20sprite/amaura.gif" >-->
+<!--        </div>-->
     
 
-        <div class="socials">
+<!--        <div class="socials">-->
              <!-- TUMBLR -->
-            <a class="text-secondary tooltipster" href="https://www.tumblr.com/diplodocrow" title="Tumblr"><i class="fab fa-tumblr fa-fw fa-2x"></i></a>
+<!--            <a class="text-secondary tooltipster" href="https://www.tumblr.com/diplodocrow" title="Tumblr"><i class="fab fa-tumblr fa-fw fa-2x"></i></a>-->
 
             <!-- Tiktok -->
-            <a class="text-secondary tooltipster" href="https://www.tiktok.com/@\diplodocrow" title="Tiktok"><i class="fa-brands fa-tiktok fa-fw fa-2x"></i></a>
+<!--            <a class="text-secondary tooltipster" href="https://www.tiktok.com/@\diplodocrow" title="Tiktok"><i class="fa-brands fa-tiktok fa-fw fa-2x"></i></a>-->
 
             <!-- Artfight -->
-            <a class="text-secondary tooltipster" href="https://artfight.net/~Diplodocrow" title="Artfight" style="font-size:27px;"><i class="fa-solid fa-paintbrush"></i></a>
+<!--            <a class="text-secondary tooltipster" href="https://artfight.net/~Diplodocrow" title="Artfight" style="font-size:27px;"><i class="fa-solid fa-paintbrush"></i></a>-->
 
             <!-- DISCORD -->
-            <a class="text-secondary tooltipster" title="Discord : amend.me"><i class="fab fa-discord fa-fw fa-2x"></i></a></div>
+<!--            <a class="text-secondary tooltipster" title="Discord : amend.me"><i class="fab fa-discord fa-fw fa-2x"></i></a></div>-->
 
        
 
 
-        <div class="ownership">
-            © 2026 Diplodocrow
-        </div> </div>
+<!--        <div class="ownership">-->
+<!--            © 2026 Diplodocrow-->
+<!--        </div> </div>-->
 
 </div>
 
@@ -250,8 +430,8 @@
 
 
 
-
-
+</div>     
+</div>
     </body>
 
 </html>

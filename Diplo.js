@@ -63,7 +63,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
     {
 
-      category:"OCs Soraya Colored Rendered NSFW 2025", /*Ocs OCNAME Flat Rendered Colored BNW Lineart 202X NSFW*/ 
+      category:"OCs Soraya Colored Rendered NSFW 2025", /*Ocs OCNAME Flat Rendered Colored BNW Lineart 202X NSFW BD Artfight*/
       Button: "1" ,
       img: "image/soraya.jpg",
       credits: "" ,
@@ -71,13 +71,13 @@ window.addEventListener("DOMContentLoaded", (event) => {
       nameLink:"",
       Year : "Winter 2025" ,
       Character : "Soraya" ,
-      Type: "Rendered and colored" ,
+      Type: "Rendered and colored",
       Notes:"" ,
 
     },
 
     {
-      category:"BNW rendered 2025", /*Ocs OCNAME Flat Rendered Colored BNW Lineart 202X NSFW*/ 
+      category:"BNW rendered 2025", /*Ocs OCNAME Flat Rendered Colored BNW Lineart 202X NSFW BD Artfight*/
       Button: "2" ,
       img: "image/leafeon.jpg",
       credits: "Leafon from Pokemon" ,
@@ -93,7 +93,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     
 
     {
-      category:"OCs Aasha Flat Colored 2025", /*Ocs OCNAME Flat Rendered Colored BNW Lineart 202X NSFW*/ 
+      category:"OCs Aasha Flat Colored 2025", /*Ocs OCNAME Flat Rendered Colored BNW Lineart 202X NSFW BD Artfight*/ 
       Button: "3" ,
       img: "image/Aasha.jpg",
       credits: "" ,
@@ -107,7 +107,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     },
 
   {
-      category:"OCs Kah rendered Colored 2025", /*Ocs OCNAME Flat Rendered Colored BNW Lineart 202X NSFW*/ 
+      category:"OCs Kah rendered Colored 2025", /*Ocs OCNAME Flat Rendered Colored BNW Lineart 202X NSFW BD Artfight*/ 
       Button: "4" ,
       img: "image/Kah.jpg",
       credits: "" ,
@@ -121,7 +121,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
 
     {
-      category:"OCs Flat Colored 2025", /*Ocs OCNAME Flat Rendered Colored BNW Lineart 202X NSFW*/ 
+      category:"OCs Flat Colored 2025", /*Ocs OCNAME Flat Rendered Colored BNW Lineart 202X NSFW BD Artfight*/
       Button: "5" ,
       img: "image/Nathalia_Athy-human.jpg",
       credits: "Nathalia by " ,
@@ -134,7 +134,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     },
 
     {
-      category:"OCs Flat Colored Lineart 2025", /*Ocs OCNAME Flat Rendered Colored BNW Lineart 202X NSFW*/ 
+      category:"OCs Flat Colored Lineart 2025", /*Ocs OCNAME Flat Rendered Colored BNW Lineart 202X NSFW BD Artfight*/
       Button: "6" ,
       img: "image/full_body_avatar_alora.jpg",
       credits: "" ,
@@ -149,7 +149,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     {
 
 
-      category:"OCs Alora Rendered Colored Lineart 2025", /*Ocs OCNAME Flat Rendered Colored BNW Lineart 202X NSFW*/ 
+      category:"OCs Alora Rendered Colored Lineart 2025", /*Ocs OCNAME Flat Rendered Colored BNW Lineart 202X NSFW BD Artfight*/
       Button: "7" ,
       img: "image/Alora.jpg",
       credits: "" ,
@@ -162,7 +162,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     },
 
     {
-      category:"Rendered BNW Lineart 2025", /*Ocs OCNAME Flat Rendered Colored BNW Lineart 202X NSFW*/ 
+      category:"Rendered BNW Lineart 2025", /*Ocs OCNAME Flat Rendered Colored BNW Lineart 202X NSFW BD Artfight*/
       Button: "8" ,
       img: "image/Cinna_sasharp-wonder_egg_priority.jpg",
       credits: "Cinnabar by" ,   /*OCNAME by*/
@@ -175,7 +175,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     },
 
     {
-      category:"OCS Diplo flat Colored Lineart 2025", /*Ocs OCNAME Flat Rendered Colored BNW Lineart 202X NSFW*/ 
+      category:"OCS Diplo flat Colored Lineart 2025", /*Ocs OCNAME Flat Rendered Colored BNW Lineart 202X NSFW BD Artfight*/
       Button: "9" ,
       img: "image/diplo_doodles_lost_1.png",
       credits: "The background is a Backroom pic :]" ,   /*OCNAME by*/
@@ -189,7 +189,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
     {
 
-      category:"OCS Diplo BD Lineart 2025", /*Ocs OCNAME Flat Rendered Colored BNW Lineart 202X NSFW BD*/ 
+      category:"OCS Diplo BD Lineart 2025", /*Ocs OCNAME Flat Rendered Colored BNW Lineart 202X NSFW BD Artfight*/
       Button: "10" ,
       img: "image/doodles_diplo_breaking_responsability.jpg",
       credits: "" ,   /*OCNAME by*/
@@ -471,30 +471,30 @@ const filterButtons = document.querySelectorAll(".filter-btn");
 
 
 
-const filterNsfw = document.querySelectorAll(".filter-nsfw");
-const galleryitemsnsfw = document.querySelectorAll(".item");
+// const filterNsfw = document.querySelectorAll(".filter-nsfw");
+// const galleryitemsnsfw = document.querySelectorAll(".item");
 
-  filterNsfw.forEach((button) => {
-      button.addEventListener("click", () => {
-          filterNsfw.forEach(button => {
-            button.classList.remove("selected");
-          });
+//   filterNsfw.forEach((button) => {
+//       button.addEventListener("click", () => {
+//           filterNsfw.forEach(button => {
+//             button.classList.remove("active");
+//           });
 
-          button.classList.add("selected");
+//           button.classList.add("active");
 
           
-          const filterValue = button.dataset.filter;
+//           const filterValue = button.dataset.filter;
           
-          galleryitemsnsfw.forEach(item => {
-              if (filterValue === "All" || item.classList.contains(filterValue)) {
-                    item.classList.remove("hidden");
-              } else {
-                    item.classList.add("hidden");
-              }
+//           galleryitemsnsfw.forEach(item => {
+//               if (filterValue === "All" || item.classList.contains(filterValue)) {
+//                     item.classList.remove("hidden");
+//               } else {
+//                     item.classList.add("hidden");
+//               }
 
-          })
-        });
-      });  
+//           })
+//         });
+//       });  
 
 
 
@@ -505,29 +505,6 @@ const galleryitemsnsfw = document.querySelectorAll(".item");
       }
 
     });
-/*----------------------------------------------------------------------------------*/
-
-
-
-var buttonsObj = {
-  Diplo: { isSelected: false },
-  action2: { isSelected: false },
-  action3: { isSelected: false },
-  action4: { isSelected: false }
-};
-
-var setButtonAction = function (objBtn) {
-  var btnName = objBtn.name;
-  var isSelected = buttonsObj[btnName].isSelected;
-  if (isSelected) {
-    objBtn.classList.remove('btn-pressed');
-  } else {
-    objBtn.classList.add('btn-pressed');
-  }
-  buttonsObj[btnName].isSelected = !isSelected;
-}
-
-
 
 
 /*-------------------- MUSIC BOX --------------------------*/
@@ -602,7 +579,7 @@ function showSlides() {
 }
 
 
-/*----------------------------------------------------------------------------------------------------- */
+/*--------------------------------------------SLICK GALLERY--------------------------------------------------------- */
 
 
 
@@ -637,3 +614,102 @@ $('.center').slick({
     }
   ]
 });
+
+
+// --------------------------------------BLOG BUTTONS------------------------------------------------------
+
+// $(document).ready(function(){
+//     $(".slide-btn1").click(function(){
+//            $("#panel2").slideUp("fast");
+//             $('.active').removeClass('active');
+//         $("#panel1").toggle("fast");
+//         $(this).toggleClass("active");
+//         return false;
+//     });
+//         $(".slide-btn2").click(function(){
+//              $("#panel1").slideUp("fast");
+//            $('.active').removeClass('active');
+//         $("#panel2").slideToggle("slow");
+//         $(this).toggleClass("active");
+//         return false;
+//     });
+// });​
+
+
+// $(".slide-btn1").on("click", function(){
+//   $("#panel1").show("slow");
+//   $("#panel2").slideUp("slow");
+// });
+
+// $(".slide-btn2").on("click", function(){
+//   $("#panel1").hide("slow");
+//   $("#panel2").slideDown("slow");
+// });
+
+/*-------------------------------------------------------------------------------------------*/
+
+// $('BLOG-BUTTONS .Art-blog .Perso-blog').on('mouseup', function() {
+// 	var $active = $('.toggle.active .toggle-title');
+// 	$active.trigger('click');
+// });
+
+/*-------------------------------------------------------------------------------------------*/
+
+
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        var site_data = JSON.parse(this.responseText);
+        var num_arr = site_data.info.views.toString().split("");
+        var num_str = "";
+        for (i = 0; i < num_arr.length; i++) {
+            num_str += num_arr[i];
+            if ( (num_arr.length-1 - i) % 3 == 0 && (num_arr.length-1 - i) != 0 ) {num_str += ",";}
+            var date_str = site_data.info.last_updated;
+            var date_obj = new Date(site_data.info.last_updated);
+            document.getElementById("lastupdate").innerHTML = (date_obj.getMonth()+1) + "-" + date_obj.getDate() + "-" + date_obj.getFullYear();
+        }
+        document.getElementById("hitcount").innerHTML = num_str;
+    }
+};
+xhttp.open("GET", "https://weirdscifi.ratiosemper.com/neocities.php?sitename=diplodocrow", true);
+xhttp.send();
+
+/*--------------------------------------------------*/
+
+
+
+
+$('#button button').click(function() { 
+var box = $(this).attr('data-box');
+
+$('#' + box).addClass('show').siblings().removeClass('show');
+ alert(box); // Alerts the box id selected
+})
+
+
+/*---------------carousel-------------------*/
+$('input').on('change', function() {
+  $('body').toggleClass('blue');
+});
+
+/*----------------------------PSP SOUND------------------------------------------------------*/
+      function play1() {
+        var audio = new Audio('https://file.garden/ZnMrL85ESFWoAbtq/artfight%20stamps/serrer%20les%20dents.mp3');
+        audio.play();
+      }
+
+      function play2() {
+        var audio = new Audio('https://file.garden/ZnMrL85ESFWoAbtq/artfight%20stamps/Fallait%20%C3%AAtre%20l%C3%A0.mp3');
+        audio.play();
+      }
+
+       function play3() {
+        var audio = new Audio("https://file.garden/ZnMrL85ESFWoAbtq/artfight%20stamps/Spider%20ZED%20-%20l'a%C3%A9roport%20(visualiseur).mp3");
+        audio.play();
+      }
+
+$('#song-1 label').click(function(event) {
+  event.stopPropagation();
+});
+

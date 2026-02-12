@@ -1,35 +1,26 @@
 /* COLOR PALLETTE */
-/*:root{   
-    --blue: #5A69A3; /*#5A69A3,   #4E528F*/
-   /* --dblue: #323770; /*#323770*/
-  /*  --yellow:#CFA96B;
-    --black:#140D23;
-    --white:#E3D4BE;
-    --red:#870700;
-    --yellow2:#E8A83A; 
-    
-
-    
-}   */
-
 :root{   
-    --dblue: #323770; /*#323770*/
-    --blue: #5A69A3; /*#5A69A3,   #4E528F*/
-    
-    --yellow2:#E6AA43;
-    --yellow:#EACA89;
+    --blue: #5A63A3; /*#5A69A3,   #4E528F*/
+    --blue2: #323270;
+    --dblue: #241E50; /*#323770*/
+
+     --yellow2:#E8A83A;
+    --yellow:#CFA96B;
+
+    --black:#140D23;
+    --white:#f3e9e8; /*#E3D4BE */
+    --grey:#1E1E1E;
 
     --red:#870700;
     --red2:#A83F35;
 
     --green:#527267;
     --green2:#689083;
-
-    --black:#140D23;
-    --white:#F0E0CE; 
+   
+    /* --roboto-mono: Roboto Mono; */
 }
 
-* {
+*{
     margin:0;
     padding:0;
     outline:0;
@@ -38,9 +29,27 @@
     box-sizing: border-box;
 }
 
+
+.WARNING{
+   background-color: var(--red);
+  border-radius: 20px;
+ 
+  margin:8%; margin-top: 1%;
+  padding: 2%;
+  width:100%;
+
+  color: var(--white);
+  font-family: "Carter One";
+  
+  display: flex;
+  flex-wrap: wrap;
+  font-size:1.5rem;
+}
+
 body{   /*BACKGROUND*/
-    background-image: linear-gradient(to bottom, var(--dblue), var(--blue,));
-    height: fit-content; min-height: 100vh; max-width: 100vw;
+    background-color: var(--grey);
+    height: fit-content; min-height: 80vh; max-width: 100vw;
+    
     
 }
 
@@ -48,37 +57,20 @@ body{   /*BACKGROUND*/
     border: 2px solid var(--black);
     background-color: var(--blue);
     border-radius: 15px;
+    font-size: 1.7rem;
 
-    width: 96%; height: 6.5%;
-    top: 5%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 40%; height: 7%;
+    top: 1%;
+    right: 0.5%;
+    
 
     display: flex;
     justify-content: space-between;
 
-    position: fixed;
+    position: fixed; z-index: 6;
     box-shadow: inset -1px -1px 2px 1px color-mix(in srgb, var(--dblue) 70%, transparent), 
-                inset 2px 2px 2px 1px color-mix(in srgb, var(--white) 30%, transparent);
-    
-   
-    
-}
-
-li{
-    list-style-type: none;
-    width: 30%;
-        margin: 0px 10px 0px 10px;
-}
-
-#van-gauche{
-    font-family: "Carter One", system-ui;
-    width: 13.5%;
-    
-    display: flex; /*flexbox, c necessaire de mettre display avant le rest en bas*/
-    justify-content: flex-start;  /*decalle tout au debut, a gauche*/
-    align-items: left; /*au centre, mais horizontalement*/
-
+                inset 2px 2px 2px 1px color-mix(in srgb, var(--white) 30%, transparent);  
+                
 }
 
 /*a, a:hover, a:focus, a:active{  
@@ -91,7 +83,7 @@ li{
       
 }  */
 
-    
+
 .link:hover{
   color: var(--yellow);
 
@@ -101,27 +93,20 @@ li{
 .link{
   margin: 0% 2% 0% 2%;
   color: var(--black);
-  font-size: 1.3em;
   text-decoration: none;
+  list-style-type: none;
+    width: 30%;
+        margin: 0px 10px 0px 10px;
 
   display: flex; /*flexbox, c necessaire de mettre display avant le rest en bas*/
     justify-content: flex-start;  /*decalle tout au debut, a gauche*/
     align-items: center; /*au centre, mais horizontalement*/
   
     min-width: fit-content;
-
-
-}
-
-#van-droite{
     font-family: "Carter One", system-ui;
-    font-weight: 800;
+   
     display: flex ;
     justify-content: space-evenly;
-    align-items: right;
-    width: 50%;
-    text-decoration: none;
-
 }
 
 .logo-chat{
@@ -141,16 +126,91 @@ li{
 
 }
 
+/*------------------------------------*/
+
+.home{
+  min-height:600px;
+  margin-top: 10%;
+  margin:1% 5% 0% 5%;
+}
+
+.row{
+   display: flex;
+  text-align: center; justify-content: center;
+}
+.col{
+     float: left;
+    width: 50%;
+}
+
+
+.diplo-title{
+  margin: 1% 1% 0% 0%;
+  
+  display: flex;
+  text-align: center; justify-content: center;
+ /* position: relative;
+  left:40px; */
+  
+}
+
+
+.bandaid-warning{
+  margin-top:10%;
+  background-color: #d2a68e;
+  border-radius: 45px;
+  border: solid 3px #ad7f6e;
+  font-size:1.3rem;
+ 
+  padding: 1% 2% 1% 2%;
+  width:80%;
+
+  display: flex;
+  flex-wrap: wrap; justify-content: center;
+  
+  transform: rotate(10deg);
+  background-image: radial-gradient(circle at 1px 1px, #ad7f6e 2px, transparent 0);
+  background-size: 25px 25px;
+  
+  position:relative;
+  left:20px;
+}
+
+.warning{
+  
+  background-color: #d6b3a0;
+  border-radius: 20px;
+  width:fit-content;
+  max-width: 50%;
+ border: solid 3px #ad7f6e;
+  padding: 1% 2% 1% 2%;
+  width:100%;
+
+  display: flex;
+  justify-content: center; 
+  text-align: center;
+
+    color: var(--red);
+  font-family: "Carter One";
+  box-shadow: inset -1px -1px 2px 1px color-mix(in srgb, var(--blue) 40%, transparent), 
+                inset 2px 2px 2px 1px color-mix(in srgb, var(--white) 50%, transparent);  
+}
+
+/*-------------------------*/
+
 
 
 
 .cent{
-    width: 100%; 
-    height: fit-content; 
-
-    display: flex; justify-content: center;
+    display: flex; 
+    justify-content: center;
     margin-top: 5%;
+
+    width:100%;
+    min-height:1350px;
+    height: fit-content;
 }
+
 
 
 
@@ -162,6 +222,9 @@ li{
     width: 350px ;
     height: 20%;
     border-radius:25px;
+
+    background-image:url(image/diplo_doodles_lost_1.png);
+    background-position: center bottom 40%;
 
     margin-bottom: 8%;
     padding:2%;
@@ -179,6 +242,7 @@ border: 3px var(--black) solid;
     color: var(--black);
     margin: 1%;
     border: 3px var(--black) solid; 
+    font-size:1.3rem;
 
 }
 
@@ -199,6 +263,7 @@ border: 3px var(--black) solid;
     background-color: var(--white);
     border-radius: 20px;
     margin:1%;
+    font-size:1.3rem;
     color:var(--black);
     padding: 5%;
     overflow: hidden;
@@ -215,13 +280,17 @@ border: 3px var(--black) solid;
 
 .TODO{
     font-family: "Carter One", system-ui;
-    width:350px; height: 500px;
+
+    width:350px; 
+    height: 500px;
+
     background-color: var(--yellow);
     border-radius: 20px;
    
     color: var(--black);
     margin: 1%;
-border: 3px var(--black) solid; 
+    border: 3px var(--black) solid; 
+    font-size:1.3rem;
 }
 
 
@@ -233,12 +302,10 @@ border: 3px var(--black) solid;
     color:var(--black);
 
     padding: 3%; 
-    margin:break-word;
-
     
     box-shadow: inset -1px -1px 2px 1px color-mix(in srgb, var(--dblue) 70%, transparent), 
                 inset 2px 2px 2px 1px color-mix(in srgb, var(--white) 30%, transparent);
-
+    font-size:1.3rem;
 }
 
 
@@ -259,53 +326,44 @@ border: 3px var(--black) solid;
 }
 
 
-
 .Blogs{
-    margin: 0% 3% 3% 3%;
-    padding:2%;
+    margin: 6% 3% 3% 3%;
+   
 }
 
 
-.BLOG-BUTTONS{
-
-    grid-column: auto;
-}
-
-
+/*-----------------------------------------------------------------------------------------------------------*/
 /* -------------------ART BLOG----------------------*/
 .Art-blog-button{
-    background-color: #5A69A3;
+    background-color: var(--blue);
     border-radius: 25px 25px 0px 0px;
-    border: 3px var(--black) solid; border-bottom: none;
-    padding:2%; 
+
+    border: 3px var(--black) solid;
+    border-bottom: 4px var(--blue) solid;
+   
+
+    padding: 2% 6% 2% 6% ;
+    text-decoration: none;
 
     width: 150px ;
     height: 5%;
 
     font-family: "Carter One", system-ui; color: var(--black);
+    font-size:1.3rem;
+
+    position:relative;
+    z-index:3; 
     
 }
 
-.Art-blog-button.active{
-    background-color: #5A69A3;
-    border-radius: 25px 25px 0px 0px;
-    border: var(--black) solid; border-bottom: none;
-    border-width: 3px 3px 0px 3px;
-    padding:2%; 
-
-    width: 150px ;
-    height: 6%;
-
-    font-family: "Carter One", system-ui;color: var(--black);
-
-    position:static;
-
-
+.Art-blog-button:visited{
+    color: var(--black);
+    text-decoration: none;
     
-
 }
 
-.back-blog-art{
+
+#Art-blog{
     background-color: var(--blue);
     border-radius: 0px 25px 25px 25px;
     /* border: 3px var(--black) solid; */
@@ -313,7 +371,12 @@ border: 3px var(--black) solid;
 
     width: 60vw ;
     height: 50%;
-
+    height: fit-content;
+    border: 3px var(--black) solid;
+    
+    position:relative;
+    top:-3px;
+    z-index:-1;
 
 }
 
@@ -323,43 +386,130 @@ border: 3px var(--black) solid;
     border-radius: 25px 25px 0px 0px;
 
     border: 3px var(--black) solid; 
-
-    padding:2%; 
+    color: var(--black);
+    text-decoration: none;
+    
+    padding: 2% 6% 2% 6% ; 
+    font-size:1.3rem;
 
     width: 150px ;
     height: 5%;
 
     font-family: "Carter One", system-ui; color: var(--black);
+
     
 }
 
-.Perso-blog-button.active{
-    background-color: var(--red2);
-    border-radius: 25px 25px 0px 0px;
-    
-    border: 3px var(--black) solid; 
-    border-bottom: 1px var(--red2) solid;
+.Perso-blog-button:hover{
+    color: var(--black);
+    text-decoration: none;
 
-    padding:2%; 
-
-    width: 150px ;
-    height: 5%;
-
-    font-family: "Carter One", system-ui; color: var(--black);
-    
 }
 
-.back-blog-perso{
-    background-color: var(--red2);
+.Perso-blog-button:visited{
+    color: var(--black);
+    text-decoration: none;
+
+}
+
+#Perso-blog{
+        background-color: var(--red2);
     border-radius: 0px 25px 25px 25px;
     /* border: 3px var(--black) solid; */
     padding:2%; 
 
     width: 60vw ;
     height: 50%;
+    height: fit-content;
+    border: 3px var(--black) solid;
+    border-top: none;
 
-    display:hidden;
+    position:relative;
+    top:-455px;
+    z-index:-1; 
+}
 
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------FOOTER------------------------------------*/
+
+
+
+.footer{
+  /*background-color: #4E528F;*/
+  border-radius: 20px;
+  border-color: var(--yellow);
+  border-style:solid ;
+  border-width: 2px;
+
+  margin: auto;
+  margin-top:1%;
+  margin-bottom:1%;
+
+  width: 82.5%; 
+  
+
+
+  display: flex; flex-wrap: wrap;  justify-content:space-evenly;
 
 }
 
+.pokebag{
+  display: flex;
+  align-items: end;
+  justify-content: center;
+
+  width: 40%;
+  height: 5em;
+
+}
+
+.pokemon{
+  margin:1%;
+
+}
+
+.socials{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+  text-decoration: none;
+  
+}
+
+.text-secondary{
+  color: var(--dblue);
+  
+  text-decoration: none;
+
+}
+
+.text-secondary:hover{ /*socials hover*/
+  color:var(--yellow);
+}
+
+.ownership{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--black);
+  font-family: "Carter One", system-ui;
+   width: 25%;
+   font-size: 1.3rem;
+}
+
+
+
+
+.show{
+z-index:1;
+}
